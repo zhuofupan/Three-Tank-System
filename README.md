@@ -34,8 +34,6 @@
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 
-<div align="left">
-
 $$ 
 \begin{equation}
     \begin{split}
@@ -46,13 +44,9 @@ $$
 \end{equation}
 $$
 
-</div>
-
 ## > Linearization
 
 ​	The linear form of the above model can be achieved by a linearization at an operating point as follows:
-
-<div align=center>
 
 $$ 
 \begin{equation}
@@ -90,11 +84,7 @@ A = \frac{{\partial f}}{{\partial g}}\left| {_{h = {h_o}},B = } \right.\left[ {\
 \end{equation}
 $$
 
-</div>
-
-<div align=center>
-
-$$ {}
+$$
 \begin{equation}
     \begin{split}
         f\left( h \right) = \left[ {\begin{array}{*{20}{c}}
@@ -109,8 +99,6 @@ $$ {}
     \end{split}
 \end{equation}
 $$
-  
-</div>
 
 ## > Fault description
 
@@ -126,9 +114,7 @@ h1, h2, h3: 0.02
 
 ### Fault start = 200  
 
-<div align=center>
-
-$$ {}
+$$
 \begin{equation}
     \begin{split}
         &\mathcal{A} \dot{h}_1 = Q_1 + f_1 + f_2 -  Q_{13} - f_7 \check Q_{10} + \omega_1\\
@@ -140,10 +126,7 @@ $$ {}
     \end{split}
 \end{equation}
 $$
-  
-</div>
 
-<div align=center>
 
 | Fault ID |                         Description                          | Location |
 | :------: | :----------------------------------------------------------: | :------: |
@@ -158,7 +141,6 @@ $$
 |    11    |                 $f_{11}(t) =-0.0003(t-200)$                  | Process  |
 |    12    |                 $f_{12}(t) =-0.0005(t-200)$                  | Process  |
 
-</div>
 
 ### Train:  
 [train].mat -> normal (16008 × 5)  
