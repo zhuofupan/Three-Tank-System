@@ -29,9 +29,14 @@
 | coeff. of flow for pipe 2   | $a_2$        | $0.60$ |          |
 | coeff. of flow for pipe 3   | $a_3$        | $0.45$ |          |
 
-$ s_{13} = s_{23} = s_0 = 0.5\ cm^2$
+$ s_{13} = s_{23} = s_0  = s_n = 0.5\ cm^2$
 
 ## > System dynamics
+
+$ u = [Q1\ Q2]^T $
+  
+y = h1, h2, h3  
+x = h1, h2, h3  
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 
@@ -103,10 +108,6 @@ $$
 
 ## > Fault description
 
-### 变量:  
-u = Q1, Q2  
-y = h1, h2, h3  
-x = h1, h2, h3  
 
 ### Input Disturbances  
 Q1: 0.05; Q2: 0.02  
