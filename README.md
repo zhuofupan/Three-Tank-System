@@ -34,7 +34,7 @@
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 
-<div align=left>
+<div align="left">
 
 $$ 
 \begin{equation}
