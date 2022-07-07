@@ -29,17 +29,11 @@
 
 Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 $$
-\begin{equation}\label{eq5-1b}
-    \begin{split}
-        &\mathcal{A} \dot{h}_1 = Q_1 + f_1 + f_2 -  Q_{13} - f_7 \check Q_{10} + \omega_1\\
-        &\mathcal{A} \dot{h}_2 = Q_2 + f_1 + f_3 + Q_{32} - f_8 (f_{11}+1) \check Q_{20} + \omega_2 \\
-        &\mathcal{A} \dot{h}_3 = Q_{13} -  Q_{32} - f_9 \check Q_{30} + \omega_3\\ 
-        &Q_{13} =  a_1 s_{13} (f_{10}+1) sign(h_1-h_3) \sqrt{2g \left| h_1 - h_3 \right| } \\
-        &Q_{32} =  a_3 s_{23} (f_{12}+1) sign(h_3-h_2) \sqrt{2g \left| h_3 - h_2 \right| } \\
-        &\check Q_{i0} =  a_i s_{0} \sqrt{2g h_i }, i = 1,2,3
-    \end{split}
-\end{equation}
+\mathcal A\dot{h_1}=Q_1-Q_{13},\mathcal A\dot{h_2}=Q_2+Q_{32}-Q_{20},\mathcal A\dot{h_3}=Q_{13}-Q_{32}\\
+Q_{13}=a_1s_{13}sign(h_1-h_3)\sqrt{2g|h_1-h_3|}\\
+Q_{32}=a_3s_{23}sign(h_3-h_2)\sqrt{2g|h_3-h_2|},Q_{20}=a_2s_0\sqrt{2gh_2}
 $$
+
 
 
 
@@ -51,6 +45,19 @@ $$
 
 
 ## > 故障类型
+
+$$
+\begin{equation}
+    \begin{split}
+        &\mathcal{A} \dot{h}_1 = Q_1 + f_1 + f_2 -  Q_{13} - f_7 \check Q_{10} + \omega_1\\
+        &\mathcal{A} \dot{h}_2 = Q_2 + f_1 + f_3 + Q_{32} - f_8 (f_{11}+1) \check Q_{20} + \omega_2 \\
+        &\mathcal{A} \dot{h}_3 = Q_{13} -  Q_{32} - f_9 \check Q_{30} + \omega_3\\ 
+        &Q_{13} =  a_1 s_{13} (f_{10}+1) sign(h_1-h_3) \sqrt{2g \left| h_1 - h_3 \right| } \\
+        &Q_{32} =  a_3 s_{23} (f_{12}+1) sign(h_3-h_2) \sqrt{2g \left| h_3 - h_2 \right| } \\
+        &\check Q_{i0} =  a_i s_{0} \sqrt{2g h_i }, i = 1,2,3
+    \end{split}
+\end{equation}
+$$
 
 | Fault ID |                         Description                          | Location  |
 | :------: | :----------------------------------------------------------: | :-------: |
