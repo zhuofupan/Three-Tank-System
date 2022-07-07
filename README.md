@@ -1,5 +1,5 @@
-- [> Brief Introduction](#-Brief Introduction)
-- [> System dynamics](#-System dynamics)
+- [> Brief Introduction](#-Brief-Introduction)
+- [> System dynamics](#-System-dynamics)
 - [> Linearization](#-Linearization)
 - [> 故障类型](#-故障类型)
 - [> 结果展示](#-结果展示)
