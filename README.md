@@ -1,7 +1,7 @@
 - [> Brief Introduction](#-Brief-Introduction)
 - [> System dynamics](#-System-dynamics)
 - [> Linearization](#-Linearization)
-- [> 故障类型](#-故障类型)
+- [> Fault description](#-Fault-description)
 - [> 结果展示](#-结果展示)
 - [> My blog](#-my-blog)
 - [> 参考文献](#-参考文献)
@@ -112,7 +112,7 @@ $$
   
 </div>
 
-## > 故障类型
+## > Fault description
 
 ### 变量:  
 u = Q1, Q2  
