@@ -13,13 +13,10 @@
 
 ​	A three-tank system, as sketched in Fig. 1, has typical characteristics of tanks, pipelines and pumps used in chemical industry and thus often serves as a benchmark process in laboratories for process control.
 
-<div align=center>
 <img src="https://github.com/zhuofupan/Three-Tank-System/blob/main/TTS.jpg?raw=true" alt="Fig.1：TTS" style="zoom:30%;" />
-</div>
 
 ​	The model and the parameters of the three-tank system introduced here are from the laboratory setup DTS200 [1].
 
-<div align=center>
 
 | Parameters                  | Symbol       | Value  | Unit     |
 | --------------------------- | ------------ | ------ | -------- |
@@ -32,13 +29,12 @@
 | coeff. of flow for pipe 2   | $a_2$        | $0.60$ |          |
 | coeff. of flow for pipe 3   | $a_3$        | $0.45$ |          |
 
-</div>
 
 ## > System dynamics
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 
-<div align=center>
+<div align=left>
 
 $$ 
 \begin{equation}
