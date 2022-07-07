@@ -40,7 +40,7 @@ $ y = [h_1\ h_2\ h_3]^T $
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
 
-$$ 
+$$
 \begin{equation}
     \begin{split}
         &\mathcal A\dot{h_1}=Q_1-Q_{13},\mathcal A\dot{h_2}=Q_2+Q_{32}-Q_{20},\mathcal A\dot{h_3}=Q_{13}-Q_{32}\\
@@ -54,7 +54,7 @@ $$
 
 ​	The linear form of the above model can be achieved by a linearization at an operating point as follows:
 
-$$ 
+$$
 \begin{equation}
     \begin{split}
 \begin{array}{l}
@@ -108,7 +108,7 @@ $$
 
 ## > Fault description
 
-​	Twelve different faults were injected starting at the 200th sample. 
+​	Twelve different faults were injected starting at the 200th sample.
 
 | Fault ID |                         Description                          | Location |
 | :------: | :----------------------------------------------------------: | :------: |
@@ -123,14 +123,14 @@ $$
 |    11    |                 $f_{11}(t) =-0.0003(t-200)$                  | Process  |
 |    12    |                 $f_{12}(t) =-0.0005(t-200)$                  | Process  |
 
-​	The system contianed fault signals can be represented by 
+​	The system contianed fault signals can be represented by
 
 $$
 \begin{equation}
     \begin{split}
         &\mathcal{A} \dot{h}_1 = Q_1 + f_1 + f_2 -  Q_{13} - f_7 \check Q_{10} + \omega_1\\
         &\mathcal{A} \dot{h}_2 = Q_2 + f_1 + f_3 + Q_{32} - f_8 (f_{11}+1) \check Q_{20} + \omega_2 \\
-        &\mathcal{A} \dot{h}_3 = Q_{13} -  Q_{32} - f_9 \check Q_{30} + \omega_3\\ 
+        &\mathcal{A} \dot{h}_3 = Q_{13} -  Q_{32} - f_9 \check Q_{30} + \omega_3\\
         &Q_{13} =  a_1 s_{13} (f_{10}+1) sign(h_1-h_3) \sqrt{2g \left| h_1 - h_3 \right| } \\
         &Q_{32} =  a_3 s_{23} (f_{12}+1) sign(h_3-h_2) \sqrt{2g \left| h_3 - h_2 \right| } \\
         &\check Q_{i0} =  a_i s_{0} \sqrt{2g h_i }, i = 1,2,3
@@ -142,7 +142,7 @@ $$
 ### Train:  
 [train].mat -> normal (16008 × 5)  
 ### Test:  
-model1[train].mat  -> fault01 (2001 × 5), ..., fault12 (2001 × 5) 
+model1[train].mat  -> fault01 (2001 × 5), ..., fault12 (2001 × 5)
 
 
 ## > My blog
@@ -158,4 +158,3 @@ QQ Group：640571839
 [4] Y. Wang, Z. Pan, X. Yuan, C. Yang, and W. Gui, "[A novel deep learning based fault diagnosis approach for chemical process with extended deep belief network](https://www.sciencedirect.com/science/article/pii/S0019057819302903?via%3Dihub),” ISA Trans., vol. 96, pp. 457–467, 2020. </br>
 [5] Z. Pan, Y. Wang, X. Yuan, C. Yang, and W. Gui, "[A classification-driven neuron-grouped sae for feature representation and its application to fault
 classification in chemical processes](https://www.sciencedirect.com/science/article/pii/S0950705121006122) ," Knowl.-Based Syst., vol. 230, p. 107350, 2021. </br>
-
