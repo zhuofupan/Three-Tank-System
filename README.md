@@ -31,9 +31,9 @@ $ s_{13} = s_{23} = s_0  = s_n = 0.5\ cm^2$
 
 ## > System dynamics
 
-​	Input variables: 
-$ u = [Q1\ Q2]^T $ </br>
-​	Measurements:  
+​	Input variables:
+$ u = [Q1\ Q2]^T$
+​	Measurements:
 $ y = [h_1\ h_2\ h_3]^T $
 
 ​	Applying the incoming and outgoing mass flows under consideration of Torricelli’s law, the dynamics of DTS200 is modeled by
