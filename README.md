@@ -29,6 +29,7 @@
 | coeff. of flow for pipe 2   | $a_2$        | $0.60$ |          |
 | coeff. of flow for pipe 3   | $a_3$        | $0.45$ |          |
 
+$ s_{13} = s_{23} = s_0 = 0.5\ cm^2$
 
 ## > System dynamics
 
