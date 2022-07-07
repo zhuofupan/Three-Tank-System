@@ -32,7 +32,7 @@ $ s_{13} = s_{23} = s_0  = s_n = 0.5\ cm^2$
 ## > System dynamics
 
 ​	Input variables: 
-$ u = [Q1\ Q2]^T $
+$ u = [Q1\ Q2]^T $ </br>
 ​	Measurements:  
 $ y = [h_1\ h_2\ h_3]^T $
 
