@@ -13,7 +13,7 @@
 
 <img src="https://github.com/zhuofupan/Three-Tank-System/blob/main/TTS.jpg?raw=true" alt="Fig.1：TTS" style="zoom:30%;" />
 
-​	The model and the parameters of the three-tank system introduced here are from the laboratory setup DTS200 [1].
+​	The model and the parameters of the three-tank system introduced here are from the laboratory setup DTS200 (see [3]).
 
 
 | Parameters                  | Symbol       | Value  | Unit     |
